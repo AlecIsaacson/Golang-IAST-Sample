@@ -161,6 +161,7 @@ func main() {
 		log.Warnf("warn: APM Agent did not load: %v", err)
 	}
 
+	// Here's where we enable IAST.  This has to come after we call newrelic.NewApplication() to instantiate the APM agent.
 	// The standard code already declares err, so we can't reuse it.  That's why we use errIAST here.
 	// There are other settings you can add here, but these three are the most important ones.
 	errIAST := nrsecurityagent.InitSecurityAgent(
