@@ -1,0 +1,11 @@
+export PORT=8080
+export PRODUCT_CATALOG_SERVICE_ADDR=productcatalogservice:3550
+export CURRENCY_SERVICE_ADDR=currencyservice:7000
+export CART_SERVICE_ADDR=cartservice:7070
+export RECOMMENDATION_SERVICE_ADDR=recommendationservice:8080
+export SHIPPING_SERVICE_ADDR=shippingservice:50051
+export CHECKOUT_SERVICE_ADDR=checkoutservice:5050
+export AD_SERVICE_ADDR=adservice:9555
+export ENABLE_PROFILER=0
+export NEW_RELIC_APP_NAME="Test-GoApp"
+export NEW_RELIC_LICENSE_KEY="(YourNRLicenseKeyHere)"
